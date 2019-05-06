@@ -19,8 +19,8 @@ Following is the sample O/P when we run our cosine and Boolean algorithm.
 
 1. Ran cosine algorithm for query sting "quarrel sir" .
   
-   prasad@ubuntu:~/workspace/HW2$ javac InvertedIndex.java 
-   prasad@ubuntu:~/workspace/HW2$ java InvertedIndex cosDocfile.txt "quarrel sir" cosine
+   vishakha@ubuntu:~/workspace/HW2$ javac InvertedIndex.java 
+   vishakha@ubuntu:~/workspace/HW2$ java InvertedIndex cosDocfile.txt "quarrel sir" cosine
 
    docid : 1 score : 0.7266313138400092
    docid : 0 score : 0.5884361159227691
@@ -29,7 +29,7 @@ Following is the sample O/P when we run our cosine and Boolean algorithm.
 
 2. Ran Boolean algorithm for query "+ * quarrel sir - you"
  
-   prasad@ubuntu:~/workspace/HW2$ java InvertedIndex cosDocfile.txt "+ * quarrel sir - you" boolean	
+   vishakha@ubuntu:~/workspace/HW2$ java InvertedIndex cosDocfile.txt "+ * quarrel sir - you" boolean	
 
    docid : 0 score : 1.0
    docid : 1 score : 0.5
